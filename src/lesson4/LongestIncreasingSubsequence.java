@@ -1,5 +1,7 @@
-class LongestIncreasingSubsequenc {
-    static int l; 
+package lesson4;
+
+public class LongestIncreasingSubsequence {
+	static int l; 
     static int _lis(int arr[], int n)
     {
         if (n == 1)
