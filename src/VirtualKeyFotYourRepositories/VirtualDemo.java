@@ -9,6 +9,8 @@ public class VirtualDemo
 	public void introScreen() 
 	{
 		System.out.println();
+		System.out.println("*     WELCOME TO THE LOCKEDME APPLICATION      *");
+		System.out.println();
 		System.out.println("*      PRATEEK DUBEY      *");
 		System.out.println();
 		System.out.println("*   Directory: " + Main.path +"    *");
