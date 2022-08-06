@@ -9,4 +9,41 @@
     <welcome-file>default.jsp</welcome-file>
     <welcome-file>default.htm</welcome-file>
   </welcome-file-list>
+   
+  <filter>
+    <filter-name>loginFilter</filter-name>
+    <filter-class>FilterDemo.LoginFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>loginFilter</filter-name>
+    <url-pattern>/dashboard</url-pattern>
+    <url-pattern>/profile</url-pattern>
+  </filter-mapping>
+  
+  
+  <servlet>
+    <servlet-name>AccountDashboard</servlet-name>
+    <servlet-class>FilterDemo.AccountDashboard</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AccountProfile</servlet-name>
+    <servlet-class>FilterDemo.AccountProfile</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>InfoPage</servlet-name>
+    <servlet-class>FilterDemo.InfoPage</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AccountDashboard</servlet-name>
+    <url-pattern>/dashboard</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>AccountProfile</servlet-name>
+    <url-pattern>/profile</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>InfoPage</servlet-name>
+    <url-pattern>/info</url-pattern>
+  </servlet-mapping>
+   
 </web-app>
