@@ -1,6 +1,6 @@
 package com.service;
 
-import java.util.Iterator;
+//import java.util.Iterator;
 import java.util.List;
 
 import com.bean.Employee;
@@ -24,18 +24,18 @@ public class EmployeeService
             return "Record didn't insert";
         }
     }
-    public List<Employee> getAllEmployee() 
-    {
-        List<Employee> listOfEmp = ed.getAllEmployee();
-        Iterator<Employee> li = listOfEmp.iterator();
-        while(li.hasNext()) 
-        {
-            Employee emp = li.next();
-            emp.setSalary(emp.getSalary()+5000);
-        }
-        
-        return listOfEmp;
-    }
+//    public List<Employee> getAllEmployee() 
+//    {
+//        List<Employee> listOfEmp = ed.getAllEmployee();
+//        Iterator<Employee> li = listOfEmp.iterator();
+//        while(li.hasNext()) 
+//        {
+//            Employee emp = li.next();
+//            emp.setSalary(emp.getSalary()+5000);
+//        }
+//        
+//        return listOfEmp;
+//    }
 
 
 }
