@@ -11,7 +11,7 @@
 align-content: left;
 }
 .div1,h1{
-color:sky blue;
+color:blue;
 }
 
 </style>
