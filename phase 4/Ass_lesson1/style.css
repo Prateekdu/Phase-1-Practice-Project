@@ -1,0 +1,17 @@
+
+
+footer {
+    position:relative; 
+    left:0;
+    
+    bottom:2px;
+    text-size-adjust:inherit;
+    width: 100%;
+    height: 30px;
+    background-color: #064450;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    /* border: 2px solid green; */
+    /* margin-top:0; */
+  }
+

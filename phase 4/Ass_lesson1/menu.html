@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.0-beta1 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <script type="module" src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="menu.css" />
+  </head>
+
+  <body>
+    <header>
+      <my-header></my-header>
+    </header>
+    <main>
+
+      <div class="menu-container bg-secondary menu-padding-64 menu-large"
+        id="menu"
+      >
+        <div class="menu-content">
+          <h1 class="menu-center menu-jumbo" style="margin-bottom: 64px">
+            THE MENU
+          </h1>
+          <div class="menu-row menu-center menu-border menu-border-blue ">
+            <a
+              href="javascript:void(0)"
+              onclick="openMenu(event, 'Pizza');"
+              id="myLink"
+            >
+              <div
+                class="menu-col s4 tablink menu-padding-large menu-hover-green menu-color-orange"
+              >
+                Pizza
+              </div>
+            </a>
+            <a href="javascript:void(0)" onclick="openMenu(event, 'Pasta');">
+              <div
+                class="menu-col s4 tablink menu-padding-large menu-hover-green"
+              >
+                Salads
+              </div>
+            </a>
+            <a href="javascript:void(0)" onclick="openMenu(event, 'Starter');">
+              <div
+                class="menu-col s4 tablink menu-padding-large menu-hover-green"
+              >
+                Starter
+              </div>
+            </a>
+          </div>
+
+          <div
+            id="Pizza"
+            class="menu-container menu menu-padding-32 menu-white"
+          >
+            <h1>
+              <b>Margherita</b>
+              <span class="menu-right menu-tag menu-dark-grey menu-round"
+                >Rs .12.50</span
+              >
+            </h1>
+            <p class="textgray">
+              Fresh tomatoes, fresh mozzarella, fresh basil
+            </p>
+            <hr />
+
+            <h1>
+              <b>Formaggio</b>
+              <span class="menu-right menu-tag menu-dark-grey menu-round"
+                >Rs .15.50</span
+              >
+            </h1>
+            <p class="textgray">
+              Four cheeses (mozzarella, parmesan, pecorino, jarlsberg)
+            </p>
+            <hr />
+
+            <h1>
+              <b>Chicken</b>
+              <span class="menu-right menu-tag menu-dark-grey menu-round"
+                >Rs .17.00</span
+              >
+            </h1>
+            <p class="textgray">Fresh tomatoes, mozzarella, chicken, onions</p>
+            <hr />
+
+            <h1>
+              <b>Pineapple'o'clock</b>
+              <span class="menu-right menu-tag menu-dark-grey menu-round"
+                >Rs .16.50</span
+              >
+            </h1>
+            <p class="textgray">
+              Fresh tomatoes, mozzarella, fresh pineapple, bacon, fresh basil
+            </p>
+            <hr />
+
+            <h1>
+              <b>Meat Town</b>
+              <span class="menu-tag menu-red menu-round">Hot!</span
+              ><span class="menu-right menu-tag menu-dark-grey menu-round"
+                >Rs .20.00</span
+              >
+            </h1>
+            <p class="textgray">
+              Fresh tomatoes, mozzarella, hot pepporoni, hot sausage, beef,
+              chicken
+            </p>
+            <hr />
+
+            <h1>
+              <b>Parma</b> <span class="menu-tag menu-grey menu-round">New</span
+              ><span class="menu-right menu-tag menu-dark-grey menu-round"
+                >Rs .21.50</span
+              >
+            </h1>
+            <p class="textgray">
+              Fresh tomatoes, mozzarella, parma, bacon, fresh arugula
+            </p>
+          </div>
+
+          <div
+            id="Pasta"
+            class="menu-container menu menu-padding-32 menu-white"
+          >
+            <h1>
+              <b>Lasagna</b>
+              <span class="menu-tag menu-grey menu-round">Popular</span>
+              <span class="menu-right menu-tag menu-dark-grey menu-round"
+                >Rs .13.50</span
+              >
+            </h1>
+            <p class="textgray">
+              Special sauce, mozzarella, parmesan, ground beef
+            </p>
+            <hr />
+
+            <h1>
+              <b>Ravioli</b>
+              <span class="menu-right menu-tag menu-dark-grey menu-round"
+                >Rs .14.50</span
+              >
+            </h1>
+            <p class="textgray">Ravioli filled with cheese</p>
+            <hr />
+
+            <h1>
+              <b>Spaghetti Classica</b>
+              <span class="menu-right menu-tag menu-dark-grey menu-round"
+                >Rs .11.00</span
+              >
+            </h1>
+            <p class="textgray">Fresh tomatoes, onions, ground beef</p>
+            <hr />
+
+            <h1>
+              <b>Seafood pasta</b>
+              <span class="menu-right menu-tag menu-dark-grey menu-round"
+                >Rs .25.50</span
+              >
+            </h1>
+            <p class="textgray">Salmon, shrimp, lobster, garlic</p>
+          </div>
+
+          <div
+            id="Starter"
+            class="menu-container menu menu-padding-32 menu-white"
+          >
+            <h1>
+              <b>Today's Soup</b>
+              <span class="menu-tag menu-grey menu-round">Seasonal</span
+              ><span class="menu-right menu-tag menu-dark-grey menu-round"
+                >Rs .5.50</span
+              >
+            </h1>
+            <p class="textgray">Ask the waiter</p>
+            <hr />
+
+            <h1>
+              <b>Bruschetta</b>
+              <span class="menu-right menu-tag menu-dark-grey menu-round"
+                >Rs .8.50</span
+              >
+            </h1>
+            <p class="textgray">Bread with pesto, tomatoes, onion, garlic</p>
+            <hr />
+
+            <h1>
+              <b>Garlic bread</b>
+              <span class="menu-right menu-tag menu-dark-grey menu-round"
+                >Rs .9.50</span
+              >
+            </h1>
+            <p class="textgray">Grilled ciabatta, garlic butter, onions</p>
+            <hr />
+
+            <h1>
+              <b>Tomozzarella</b>
+              <span class="menu-right menu-tag menu-dark-grey menu-round"
+                >Rs .10.50</span
+              >
+            </h1>
+            <p class="textgray">Tomatoes and mozzarella</p>
+          </div>
+          <br />
+        </div>
+      </div>
+    </main>
+    <footer>
+      <my-footer></my-footer>
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script>
+      // Tabbed Menu
+      function openMenu(evt, menuName) {
+        var i, x, tablinks;
+        x = document.getElementsByClassName("menu");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablink");
+        for (i = 0; i < x.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(
+            " menu-red",
+            ""
+          );
+        }
+        document.getElementById(menuName).style.display = "block";
+        evt.currentTarget.firstElementChild.className += " menu-red";
+      }
+      document.getElementById("myLink").click();
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+      integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
