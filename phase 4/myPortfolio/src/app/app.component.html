@@ -1,0 +1,25 @@
+<div class="container">
+  <nav class="navbar navbar-expand-sm">
+    <div class="container-fluid">
+      <ul class="nav navbar-nav" routerLinkActive="active">
+        <li class="nav-item">
+          <img src="assets\img11.png" height="40px" width="40px" />
+          <a class="btn" routerLink="/">Tom Jerry</a>
+        </li>
+      </ul>
+      <div class="d-flex">
+        <ul class="nav navbar-nav" routerLinkActive="active">
+          <li class="nav-item">
+            <a class="btn" routerLink="/signin" style="margin: 5px">Sign In</a>
+
+            <a class="btn" routerLink="/signup" style="margin: 5px">Sign Up</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <router-outlet></router-outlet>
+  </div>
+</div>
