@@ -1,0 +1,28 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "fname": "kang",
+      "lname": "tae-moo",
+      "email": "kangtae21@gmail.com"
+    },
+    {
+      "id": 2,
+      "fname": "seo",
+      "lname": "jin",
+      "email": "seojin32@gmail.com"
+    },
+    {
+      "id": 4,
+      "fname": "prateek",
+      "lname": "dubey",
+      "email": "prateek56@gmail.com"
+    },
+    {
+      "id": 5,
+      "fname": "shivam",
+      "lname": "solanki",
+      "email": "shivam67@gmail.com"
+    }
+  ]
+}
