@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-13T19:44:25 IST" name="Default suite" finished-at="2022-10-13T19:44:57 IST" duration-ms="31405">
+    <groups>
+      <group name="Chrome">
+        <method signature="driver_your_way_test.cross_T1()[pri:0, instance:com.simplilearn.driver_your_way_test@5d7148e2]" name="cross_T1" class="com.simplilearn.driver_your_way_test"/>
+        <method signature="driver_your_way_test.cross_T2()[pri:0, instance:com.simplilearn.driver_your_way_test@5d7148e2]" name="cross_T2" class="com.simplilearn.driver_your_way_test"/>
+      </group> <!-- Chrome -->
+    </groups>
+    <test started-at="2022-10-13T19:44:25 IST" name="Default test" finished-at="2022-10-13T19:44:57 IST" duration-ms="31405">
+      <class name="com.simplilearn.driver_your_way_test">
+        <test-method signature="initialization_T0()[pri:0, instance:com.simplilearn.driver_your_way_test@5d7148e2]" started-at="2022-10-13T19:44:25 IST" name="initialization_T0" finished-at="2022-10-13T19:44:28 IST" duration-ms="3157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization_T0 -->
+        <test-method signature="cross_T1()[pri:0, instance:com.simplilearn.driver_your_way_test@5d7148e2]" started-at="2022-10-13T19:44:28 IST" name="cross_T1" finished-at="2022-10-13T19:44:40 IST" depends-on-methods="com.simplilearn.driver_your_way_test.initialization_T0" duration-ms="11564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cross_T1 -->
+        <test-method signature="cross_T2()[pri:0, instance:com.simplilearn.driver_your_way_test@5d7148e2]" started-at="2022-10-13T19:44:40 IST" name="cross_T2" finished-at="2022-10-13T19:44:57 IST" depends-on-methods="com.simplilearn.driver_your_way_test.cross_T1" duration-ms="16606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cross_T2 -->
+      </class> <!-- com.simplilearn.driver_your_way_test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

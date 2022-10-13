@@ -1,0 +1,36 @@
+.signIn
+{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    color: rgb(154, 60, 241);
+    
+
+}
+.signIn h2{
+    color: crimson;
+}
+.signIn input
+{
+    cursor: pointer;
+    margin-top:20px;
+}
+.btn{
+    padding: 8px;
+    margin-left: 50px;
+    border-radius: 5px ;
+    background-color: rgb(39, 58, 225);
+    color: white;
+}
+label{
+    margin-right: 20px;
+
+}
+.admin{
+    /* border: 2px solid blueviolet; */
+    width: 350px;
+    height: 50vh;
+    margin-top: 100px;
+    /* background-color: rgb(223, 148, 90); */
+    box-shadow: 4px 4px 8px #3498db;
+}
